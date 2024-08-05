@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>belajar javascript</h1>
+    <p>Sedang belajar <em>JavaScript</em><b> dari Duniailkom</b></p>
+    <script>
+        let pNode = document.childNodes[1].childNodes[2].childNodes[3];
+
+ console.log( pNode.baseURI );
+
+ console.log( pNode.childNodes ); // hasil || NodeList(3) [text, em, b]
+ console.log( pNode.firstChild ); // hasil || "Sedang belajar "
+ console.log( pNode.lastChild ); // hasil || <b> dari Duniailkom</b>
+ console.log( pNode.nextSibling ); // hasil || #text
+ console.log( pNode.nodeName ); // hasil || P
+ console.log( pNode.nodeType ); // hasil || 1
+ console.log( pNode.nodeValue ); // hasil || null
+ console.log( pNode.ownerDocument ); // hasil || #document
+ console.log( pNode.parentNode ); // hasil || <body>...</body>
+ console.log( pNode.parentElement ); // hasil || <body>...</body>
+ console.log( pNode.previousSibling ); // hasil || #text
+
+ console.log( pNode.textContent ); 
+ // Sedang belajar JavaScript dari Duniailkom || hasilnya.
+
+    </script>
+</body>
+</html>

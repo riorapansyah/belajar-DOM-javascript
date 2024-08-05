@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Belajar JavaScript</h1>
+    <p>Sedang belajar <em>JavaScript</em><b> dari Duniailkom</b></p>
+    <script>
+      let pNode = document.childNodes[1].childNodes[2].childNodes[3];
+      let h1Node = pNode.previousSibling.previousSibling;
+
+      console.log(h1Node.childNodes); 
+      console.log(h1Node.firstChild); 
+      console.log(h1Node.lastChild); 
+      console.log(h1Node.nextSibling); 
+      console.log(h1Node.nodeName); 
+      console.log(h1Node.nodeType); 
+      console.log(h1Node.parentNode); 
+      console.log(h1Node.previousSibling); 
+      console.log(h1Node.textContent);
+    </script>
+  </body>
+</html>

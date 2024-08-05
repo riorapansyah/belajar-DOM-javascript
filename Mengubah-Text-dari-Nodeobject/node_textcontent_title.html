@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <title>Belajar JavaScript</title>
+  </head>
+  <body>
+    <h1>Belajar JavaScript</h1>
+    <p>Sedang belajar <em>JavaScript</em><b> dari Duniailkom</b></p>
+    <script>
+      let pNode = document.childNodes[1].childNodes[2].childNodes[3];
+
+      console.log(pNode.textContent);
+
+      let titleNode = document.childNodes[1].childNodes[0].childNodes[3];
+      titleNode.textContent = "Title telah berubah";
+    </script>
+  </body>
+</html>
